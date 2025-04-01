@@ -70,18 +70,23 @@ dependencies {
     implementation("com.squareup.retrofit2:converter-gson:$retrofit_version")
 
 
-    val coroutines_version = "1.7.3"
+    val coroutinesVersion = "1.7.3"
 
     // Core Coroutines
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 
     // Coroutines for Android (Main Dispatcher, LifecycleScope, etc.)
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines_version")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutinesVersion")
 
 
     val lifecycle_version = "2.7.0"
 
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+
+
+    implementation("com.github.bumptech.glide:glide:4.16.0")
+
+    kapt("com.github.bumptech.glide:compiler:4.16.0")
 
 }
 

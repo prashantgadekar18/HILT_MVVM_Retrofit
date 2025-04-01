@@ -15,6 +15,4 @@ class MyViewModel @Inject constructor() : ViewModel() {
     val productListLiveData : LiveData<List<Product>>
         get() = _productList
 
-
-
 }

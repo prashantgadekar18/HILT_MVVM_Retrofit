@@ -2,7 +2,6 @@ package com.pg.mvvm_app_with_hilt.reposiotory
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.pg.mvvm_app_with_hilt.db.ProductBD
 import com.pg.mvvm_app_with_hilt.retrofit.ProductAPI
 import com.pg.mvvmwithdagger2example.models.Product
 import javax.inject.Inject
